@@ -1,0 +1,22 @@
+Found a 17 line (51 tokens) duplication in the following files: 
+Starting at line 108 of /datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/leaderboard/PlayerScoreImpl.java
+Starting at line 76 of /datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/utilities/Position.java
+Starting at line 63 of /datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/utilities/Dimension.java
+
+        return result;
+    }
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public boolean equals(final Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final PlayerScoreImpl other = (PlayerScoreImpl) obj;

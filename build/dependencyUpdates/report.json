@@ -1,0 +1,102 @@
+{
+    "current": {
+        "dependencies": [
+            {
+                "group": "de.aaschmid.cpd",
+                "version": "2.0",
+                "projectUrl": null,
+                "name": "de.aaschmid.cpd.gradle.plugin"
+            },
+            {
+                "group": "de.fayard.buildSrcVersions",
+                "version": "0.6.1",
+                "projectUrl": null,
+                "name": "de.fayard.buildSrcVersions.gradle.plugin"
+            }
+        ],
+        "count": 2
+    },
+    "gradle": {
+        "current": {
+            "version": "5.6.2",
+            "reason": "",
+            "isUpdateAvailable": true,
+            "isFailure": false
+        },
+        "nightly": {
+            "version": "",
+            "reason": "update check disabled",
+            "isUpdateAvailable": false,
+            "isFailure": false
+        },
+        "enabled": true,
+        "releaseCandidate": {
+            "version": "",
+            "reason": "update check succeeded: no release available",
+            "isUpdateAvailable": false,
+            "isFailure": false
+        },
+        "running": {
+            "version": "5.6.1",
+            "reason": "",
+            "isUpdateAvailable": false,
+            "isFailure": false
+        }
+    },
+    "exceeded": {
+        "dependencies": [
+            
+        ],
+        "count": 0
+    },
+    "outdated": {
+        "dependencies": [
+            {
+                "group": "com.github.spotbugs",
+                "available": {
+                    "release": null,
+                    "milestone": "2.0.0",
+                    "integration": null
+                },
+                "version": "1.6.9",
+                "projectUrl": null,
+                "name": "com.github.spotbugs.gradle.plugin"
+            }
+        ],
+        "count": 1
+    },
+    "unresolved": {
+        "dependencies": [
+            {
+                "group": "com.github.spotbugs",
+                "version": "3.1.10",
+                "reason": "Could not find com.github.spotbugs:spotbugs:3.1.10.\nSearched in the following locations:\n  - file:/home/danysk/Dropbox/Didattica/2019-20/Programmazione ad Oggetti/gradle machinery/lib/spotbugs-3.1.10.jar\n  - file:/home/danysk/Dropbox/Didattica/2019-20/Programmazione ad Oggetti/gradle machinery/lib/spotbugs.jar",
+                "projectUrl": null,
+                "name": "spotbugs"
+            },
+            {
+                "group": "com.puppycrawl.tools",
+                "version": "8.17",
+                "reason": "Could not find com.puppycrawl.tools:checkstyle:8.17.\nSearched in the following locations:\n  - file:/home/danysk/Dropbox/Didattica/2019-20/Programmazione ad Oggetti/gradle machinery/lib/checkstyle-8.17.jar\n  - file:/home/danysk/Dropbox/Didattica/2019-20/Programmazione ad Oggetti/gradle machinery/lib/checkstyle.jar",
+                "projectUrl": null,
+                "name": "checkstyle"
+            },
+            {
+                "group": "net.sourceforge.pmd",
+                "version": "6.13.0",
+                "reason": "Could not find net.sourceforge.pmd:pmd-dist:6.13.0.\nSearched in the following locations:\n  - file:/home/danysk/Dropbox/Didattica/2019-20/Programmazione ad Oggetti/gradle machinery/lib/pmd-dist-6.13.0.jar\n  - file:/home/danysk/Dropbox/Didattica/2019-20/Programmazione ad Oggetti/gradle machinery/lib/pmd-dist.jar",
+                "projectUrl": null,
+                "name": "pmd-dist"
+            },
+            {
+                "group": "net.sourceforge.pmd",
+                "version": "6.15.0",
+                "reason": "Could not find net.sourceforge.pmd:pmd-java:6.15.0.\nSearched in the following locations:\n  - file:/home/danysk/Dropbox/Didattica/2019-20/Programmazione ad Oggetti/gradle machinery/lib/pmd-java-6.15.0.jar\n  - file:/home/danysk/Dropbox/Didattica/2019-20/Programmazione ad Oggetti/gradle machinery/lib/pmd-java.jar",
+                "projectUrl": null,
+                "name": "pmd-java"
+            }
+        ],
+        "count": 4
+    },
+    "count": 7
+}

@@ -1,0 +1,572 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>SpotBugs Report</title>
+<style type="text/css">
+		.tablerow0 {
+			background: #EEEEEE;
+		}
+
+		.tablerow1 {
+			background: white;
+		}
+
+		.detailrow0 {
+			background: #EEEEEE;
+		}
+
+		.detailrow1 {
+			background: white;
+		}
+
+		.tableheader {
+			background: #b9b9fe;
+			font-size: larger;
+		}
+
+		.tablerow0:hover, .tablerow1:hover {
+			background: #aaffaa;
+		}
+
+		.priority-1 {
+		    color: red;
+		    font-weight: bold;
+		}
+		.priority-2 {
+		    color: orange;
+		    font-weight: bold;
+		}
+		.priority-3 {
+		    color: green;
+		    font-weight: bold;
+		}
+		.priority-4 {
+		    color: blue;
+		    font-weight: bold;
+		}
+		</style>
+<script type="text/javascript">
+			function toggleRow(elid) {
+				if (document.getElementById) {
+					element = document.getElementById(elid);
+					if (element) {
+						if (element.style.display == 'none') {
+							element.style.display = 'block';
+							//window.status = 'Toggle on!';
+						} else {
+							element.style.display = 'none';
+							//window.status = 'Toggle off!';
+						}
+					}
+				}
+			}
+		</script>
+</head>
+<body>
+<h1>
+<a href="https://spotbugs.github.io/">SpotBugs</a> Report</h1>
+<h2>Project Information</h2>
+<p>Project: 
+		</p>
+<p>SpotBugs version: 3.1.10</p>
+<p>Code analyzed:</p>
+<ul>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/GUIFactory.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/entities/PowerUpView.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/entities/BlockView.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/entities/HeroView.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/entities/TileView.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/entities/BombView.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/entities/EntityView.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/entities/AbstractEntityView.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/entities/WallView.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/entities/MonsterView.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/SinglePlayerView.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/TopBar.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/GameView.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/MainMenuView.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/GUIFactoryImpl.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/utilities/AnimationIterator.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/utilities/InfiniteAnimationIterator.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/utilities/Sprite.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/utilities/SpriteSheet.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/utilities/AnimationImpl.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/utilities/GameFont.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/utilities/ScreenToolUtils.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/utilities/Animation.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/utilities/ImageLoaderUtils.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/utilities/BackgroundPanel.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/HelpView.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/OptionsView$1.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/EndView.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/EndView$1.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/OptionsView.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/OptionsView$HandlerAdapter.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/view/LeaderboardView.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/controller/OptionMenuController$1.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/controller/OptionsMenuList.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/controller/MainMenuController.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/controller/MainMenuList.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/controller/OptionMenuController.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/controller/MenuController.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/controller/MainMenuController$1.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/controller/game/BombController.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/controller/game/KeyInput.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/controller/game/GameController.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/controller/game/LoadWorld$1.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/controller/game/EntityControllerImpl.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/controller/game/LoadWorld.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/controller/game/BombControllerImpl.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/controller/game/EntityController.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/controller/game/GameControllerImpl.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/controller/SoundsController.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/controller/Launcher.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/entities/Tile.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/entities/LivingEntity.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/entities/Explosion.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/entities/Bomb.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/entities/Monster.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/entities/HeroImpl.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/entities/Block.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/entities/HeroImpl$1.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/entities/Monster$1.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/entities/AbstractEntity.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/entities/AbstractLivingEntity.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/entities/powerups/MalusLife.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/entities/powerups/AbstractPowerupEntity.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/entities/powerups/BonusVelocity.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/entities/powerups/MalusSlow.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/entities/powerups/Key.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/entities/powerups/MalusFreeze.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/entities/powerups/MalusInvert.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/entities/powerups/BonusBombRange.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/entities/powerups/BonusBombNum.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/entities/powerups/Door.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/entities/powerups/BonusLife.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/entities/AbstractLivingEntity$1.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/entities/Wall.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/entities/BombImpl.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/entities/Entity.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/entities/Hero.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/TerrainFactoryImpl$1.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/leaderboard/PlayerScore.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/leaderboard/Scoring.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/leaderboard/PlayerScoreImpl.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/leaderboard/ScoreHandler.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/leaderboard/ScoreTable.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/Terrain.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/utilities/Dimension.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/utilities/Sound.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/utilities/EntityType.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/utilities/PowerUpType.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/utilities/EntityFeature.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/utilities/Velocity.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/utilities/SoundImpl.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/utilities/BombState.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/utilities/Position.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/utilities/Pair.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/utilities/Direction$1.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/utilities/Direction.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/TerrainFactory.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/LevelImpl.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/Level.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/collision/Collision.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/collision/CollisionComponentImpl.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/collision/CollisionComponent.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/collision/CollisionImpl.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/collision/EntityCollisionManagerImpl.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/collision/EntityCollisionManager.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/TerrainFactoryImpl.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/engine/GameEngine.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/model/engine/GameEngineImp.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/test/TestTerrain.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/test/TestMonster.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/test/TestPowerups.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/test/TestCollision.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/test/TestBomb.class</li>
+<li>/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/build/classes/java/main/it/unibo/bmbman/test/TestHero.class</li>
+</ul>
+<p>
+<br/>
+<br/>
+</p>
+<h2>Metrics</h2>
+<p>3202 lines of code analyzed,
+	in 114 classes, 
+	in 13 packages.</p>
+<table width="500" cellpadding="5" cellspacing="2">
+<tr class="tableheader">
+<th align="left">Metric</th>
+<th align="right">Total</th>
+<th align="right">Density*</th>
+</tr>
+<tr class="tablerow0">
+<td>High Priority Warnings</td>
+<td align="right"/>
+<td align="right">0.00</td>
+</tr>
+<tr class="tablerow1">
+<td>Medium Priority Warnings</td>
+<td align="right">5</td>
+<td align="right">1.56</td>
+</tr>
+<tr class="tablerow1">
+<td>Low Priority Warnings</td>
+<td align="right">9</td>
+<td align="right">2.81</td>
+</tr>
+<tr class="$totalClass">
+<td>
+<b>Total Warnings</b>
+</td>
+<td align="right">
+<b>14</b>
+</td>
+<td align="right">
+<b>4.37</b>
+</td>
+</tr>
+</table>
+<p>
+<i>(* Defects per Thousand lines of non-commenting source statements)</i>
+</p>
+<p>
+<br/>
+<br/>
+</p>
+<h2>Contents</h2>
+<ul>
+<li>
+<a href="#Warnings_BAD_PRACTICE">Bad practice Warnings</a>
+</li>
+<li>
+<a href="#Warnings_STYLE">Dodgy code Warnings</a>
+</li>
+<li>
+<a href="#Details">Details</a>
+</li>
+</ul>
+<h1>Summary</h1>
+<table width="500" cellpadding="5" cellspacing="2">
+<tr class="tableheader">
+<th align="left">Warning Type</th>
+<th align="right">Number</th>
+</tr>
+<tr class="tablerow0">
+<td>
+<a href="#Warnings_BAD_PRACTICE">Bad practice Warnings</a>
+</td>
+<td align="right">6</td>
+</tr>
+<tr class="tablerow1">
+<td>
+<a href="#Warnings_STYLE">Dodgy code Warnings</a>
+</td>
+<td align="right">8</td>
+</tr>
+<tr class="tablerow0">
+<td>
+<b>Total</b>
+</td>
+<td align="right">
+<b>14</b>
+</td>
+</tr>
+</table>
+<h1>Warnings</h1>
+<p>Click on a warning row to see full context information.</p>
+<h2>
+<a name="Warnings_BAD_PRACTICE">Bad practice Warnings</a>
+</h2>
+<table class="warningtable" width="100%" cellspacing="0">
+<tr class="tableheader">
+<th align="left">Code</th>
+<th align="left">Warning</th>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N66700');">
+<td>
+<span class="priority-3">Se</span>
+</td>
+<td>Class it.unibo.bmbman.view.TopBar defines non-transient non-serializable instance field hero</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N66700" style="display: none;">
+<a href="#SE_BAD_FIELD">Bug type SE_BAD_FIELD (click for details)</a>
+<br/>In class it.unibo.bmbman.view.TopBar<br/>Field it.unibo.bmbman.view.TopBar.hero<br/>Actual type it.unibo.bmbman.model.entities.HeroImpl<br/>In TopBar.java</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N66764');">
+<td>
+<span class="priority-3">Se</span>
+</td>
+<td>Class it.unibo.bmbman.view.utilities.BackgroundPanel defines non-transient non-serializable instance field image</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N66764" style="display: none;">
+<a href="#SE_BAD_FIELD">Bug type SE_BAD_FIELD (click for details)</a>
+<br/>In class it.unibo.bmbman.view.utilities.BackgroundPanel<br/>Field it.unibo.bmbman.view.utilities.BackgroundPanel.image<br/>Actual type java.awt.Image<br/>In BackgroundPanel.java</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N66441');">
+<td>
+<span class="priority-3">UI</span>
+</td>
+<td>Usage of GetResource in new it.unibo.bmbman.model.utilities.SoundImpl(String) may be unsafe if class is extended</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N66441" style="display: none;">
+<a href="#UI_INHERITANCE_UNSAFE_GETRESOURCE">Bug type UI_INHERITANCE_UNSAFE_GETRESOURCE (click for details)</a>
+<br/>In class it.unibo.bmbman.model.utilities.SoundImpl<br/>In method new it.unibo.bmbman.model.utilities.SoundImpl(String)<br/>At SoundImpl.java:[line 28]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N66644');">
+<td>
+<span class="priority-3">UI</span>
+</td>
+<td>Usage of GetResource in it.unibo.bmbman.view.EndView.loadImage(String) may be unsafe if class is extended</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N66644" style="display: none;">
+<a href="#UI_INHERITANCE_UNSAFE_GETRESOURCE">Bug type UI_INHERITANCE_UNSAFE_GETRESOURCE (click for details)</a>
+<br/>In class it.unibo.bmbman.view.EndView<br/>In method it.unibo.bmbman.view.EndView.loadImage(String)<br/>At EndView.java:[line 205]</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N66827');">
+<td>
+<span class="priority-3">UI</span>
+</td>
+<td>Usage of GetResource in new it.unibo.bmbman.view.utilities.GameFont() may be unsafe if class is extended</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N66827" style="display: none;">
+<a href="#UI_INHERITANCE_UNSAFE_GETRESOURCE">Bug type UI_INHERITANCE_UNSAFE_GETRESOURCE (click for details)</a>
+<br/>In class it.unibo.bmbman.view.utilities.GameFont<br/>In method new it.unibo.bmbman.view.utilities.GameFont()<br/>At GameFont.java:[line 23]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N66883');">
+<td>
+<span class="priority-3">UI</span>
+</td>
+<td>Usage of GetResource in new it.unibo.bmbman.view.utilities.SpriteSheet(String) may be unsafe if class is extended</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N66883" style="display: none;">
+<a href="#UI_INHERITANCE_UNSAFE_GETRESOURCE">Bug type UI_INHERITANCE_UNSAFE_GETRESOURCE (click for details)</a>
+<br/>In class it.unibo.bmbman.view.utilities.SpriteSheet<br/>In method new it.unibo.bmbman.view.utilities.SpriteSheet(String)<br/>At SpriteSheet.java:[line 19]</p>
+</td>
+</tr>
+</table>
+<h2>
+<a name="Warnings_STYLE">Dodgy code Warnings</a>
+</h2>
+<table class="warningtable" width="100%" cellspacing="0">
+<tr class="tableheader">
+<th align="left">Code</th>
+<th align="left">Warning</th>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N66352');">
+<td>
+<span class="priority-3">BC</span>
+</td>
+<td>Unchecked/unconfirmed cast from it.unibo.bmbman.model.entities.Entity to it.unibo.bmbman.model.entities.powerups.AbstractPowerupEntity in it.unibo.bmbman.model.leaderboard.Scoring.getScoring(Entity)</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N66352" style="display: none;">
+<a href="#BC_UNCONFIRMED_CAST">Bug type BC_UNCONFIRMED_CAST (click for details)</a>
+<br/>In class it.unibo.bmbman.model.leaderboard.Scoring<br/>In method it.unibo.bmbman.model.leaderboard.Scoring.getScoring(Entity)<br/>Actual type it.unibo.bmbman.model.entities.Entity<br/>Expected it.unibo.bmbman.model.entities.powerups.AbstractPowerupEntity<br/>Value loaded from entity<br/>At Scoring.java:[line 45]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N66282');">
+<td>
+<span class="priority-3">DLS</span>
+</td>
+<td>Dead store to deltaTime in it.unibo.bmbman.model.engine.GameEngineImp.run()</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N66282" style="display: none;">
+<a href="#DLS_DEAD_LOCAL_STORE">Bug type DLS_DEAD_LOCAL_STORE (click for details)</a>
+<br/>In class it.unibo.bmbman.model.engine.GameEngineImp<br/>In method it.unibo.bmbman.model.engine.GameEngineImp.run()<br/>Local variable named deltaTime<br/>At GameEngineImp.java:[line 79]</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N66571');">
+<td>
+<span class="priority-3">DLS</span>
+</td>
+<td>Dead store to titleLabel in it.unibo.bmbman.view.EndView.loadLabels()</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N66571" style="display: none;">
+<a href="#DLS_DEAD_LOCAL_STORE">Bug type DLS_DEAD_LOCAL_STORE (click for details)</a>
+<br/>In class it.unibo.bmbman.view.EndView<br/>In method it.unibo.bmbman.view.EndView.loadLabels()<br/>Local variable named titleLabel<br/>At EndView.java:[line 86]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N66497');">
+<td>
+<span class="priority-2">RV</span>
+</td>
+<td>Return value of it.unibo.bmbman.model.entities.AbstractLivingEntity.getDirection() ignored, but method has no side effect</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N66497" style="display: none;">
+<a href="#RV_RETURN_VALUE_IGNORED_NO_SIDE_EFFECT">Bug type RV_RETURN_VALUE_IGNORED_NO_SIDE_EFFECT (click for details)</a>
+<br/>In class it.unibo.bmbman.test.TestMonster<br/>In method it.unibo.bmbman.test.TestMonster.testMonsterMovement()<br/>Called method it.unibo.bmbman.model.entities.AbstractLivingEntity.getDirection()<br/>At TestMonster.java:[line 53]</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N65998');">
+<td>
+<span class="priority-2">ST</span>
+</td>
+<td>Write to static field it.unibo.bmbman.controller.SoundsController.explosion from instance method it.unibo.bmbman.controller.SoundsController.setSounds()</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N65998" style="display: none;">
+<a href="#ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD">Bug type ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD (click for details)</a>
+<br/>In class it.unibo.bmbman.controller.SoundsController<br/>In method it.unibo.bmbman.controller.SoundsController.setSounds()<br/>Field it.unibo.bmbman.controller.SoundsController.explosion<br/>At SoundsController.java:[line 95]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N66069');">
+<td>
+<span class="priority-2">ST</span>
+</td>
+<td>Write to static field it.unibo.bmbman.controller.SoundsController.key from instance method it.unibo.bmbman.controller.SoundsController.setSounds()</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N66069" style="display: none;">
+<a href="#ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD">Bug type ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD (click for details)</a>
+<br/>In class it.unibo.bmbman.controller.SoundsController<br/>In method it.unibo.bmbman.controller.SoundsController.setSounds()<br/>Field it.unibo.bmbman.controller.SoundsController.key<br/>At SoundsController.java:[line 97]</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N66140');">
+<td>
+<span class="priority-2">ST</span>
+</td>
+<td>Write to static field it.unibo.bmbman.controller.SoundsController.music from instance method it.unibo.bmbman.controller.SoundsController.setSounds()</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N66140" style="display: none;">
+<a href="#ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD">Bug type ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD (click for details)</a>
+<br/>In class it.unibo.bmbman.controller.SoundsController<br/>In method it.unibo.bmbman.controller.SoundsController.setSounds()<br/>Field it.unibo.bmbman.controller.SoundsController.music<br/>At SoundsController.java:[line 90]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N66211');">
+<td>
+<span class="priority-2">ST</span>
+</td>
+<td>Write to static field it.unibo.bmbman.controller.SoundsController.placeBomb from instance method it.unibo.bmbman.controller.SoundsController.setSounds()</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N66211" style="display: none;">
+<a href="#ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD">Bug type ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD (click for details)</a>
+<br/>In class it.unibo.bmbman.controller.SoundsController<br/>In method it.unibo.bmbman.controller.SoundsController.setSounds()<br/>Field it.unibo.bmbman.controller.SoundsController.placeBomb<br/>At SoundsController.java:[line 96]</p>
+</td>
+</tr>
+</table>
+<h1>
+<a name="Details">Details</a>
+</h1>
+<h2>
+<a name="BC_UNCONFIRMED_CAST">BC_UNCONFIRMED_CAST: Unchecked/unconfirmed cast</a>
+</h2>
+
+<p>
+This cast is unchecked, and not all instances of the type casted from can be cast to
+the type it is being cast to. Check that your program logic ensures that this
+cast will not fail.
+</p>
+
+    
+<h2>
+<a name="DLS_DEAD_LOCAL_STORE">DLS_DEAD_LOCAL_STORE: Dead store to local variable</a>
+</h2>
+
+<p>
+This instruction assigns a value to a local variable,
+but the value is not read or used in any subsequent instruction.
+Often, this indicates an error, because the value computed is never
+used.
+</p>
+<p>
+Note that Sun's javac compiler often generates dead stores for
+final local variables.  Because SpotBugs is a bytecode-based tool,
+there is no easy way to eliminate these false positives.
+</p>
+
+    
+<h2>
+<a name="RV_RETURN_VALUE_IGNORED_NO_SIDE_EFFECT">RV_RETURN_VALUE_IGNORED_NO_SIDE_EFFECT: Return value of method without side effect is ignored</a>
+</h2>
+
+<p>This code calls a method and ignores the return value. However our analysis shows that
+the method (including its implementations in subclasses if any) does not produce any effect
+other than return value. Thus this call can be removed.
+</p>
+<p>We are trying to reduce the false positives as much as possible, but in some cases this warning might be wrong.
+Common false-positive cases include:</p>
+<p>- The method is designed to be overridden and produce a side effect in other projects which are out of the scope of the analysis.</p>
+<p>- The method is called to trigger the class loading which may have a side effect.</p>
+<p>- The method is called just to get some exception.</p>
+<p>If you feel that our assumption is incorrect, you can use a @CheckReturnValue annotation
+to instruct SpotBugs that ignoring the return value of this method is acceptable.
+</p>
+
+    
+<h2>
+<a name="SE_BAD_FIELD">SE_BAD_FIELD: Non-transient non-serializable instance field in serializable class</a>
+</h2>
+
+<p> This Serializable class defines a non-primitive instance field which is neither transient,
+Serializable, or <code>java.lang.Object</code>, and does not appear to implement
+the <code>Externalizable</code> interface or the
+<code>readObject()</code> and <code>writeObject()</code> methods.&nbsp;
+Objects of this class will not be deserialized correctly if a non-Serializable
+object is stored in this field.</p>
+
+    
+<h2>
+<a name="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD">ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD: Write to static field from instance method</a>
+</h2>
+
+  <p> This instance method writes to a static field. This is tricky to get
+correct if multiple instances are being manipulated,
+and generally bad practice.
+</p>
+
+    
+<h2>
+<a name="UI_INHERITANCE_UNSAFE_GETRESOURCE">UI_INHERITANCE_UNSAFE_GETRESOURCE: Usage of GetResource may be unsafe if class is extended</a>
+</h2>
+
+<p>Calling <code>this.getClass().getResource(...)</code> could give
+results other than expected if this class is extended by a class in
+another package.</p>
+
+    </body>
+</html>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.17">
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/controller/Launcher.java">
+<error line="1" severity="error" message="CRLF and CR line endings are prohibited, but this file uses them." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/controller/MainMenuController.java">
+<error line="1" severity="error" message="CRLF and CR line endings are prohibited, but this file uses them." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/controller/MainMenuList.java">
+<error line="1" severity="error" message="CRLF and CR line endings are prohibited, but this file uses them." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/controller/MenuController.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/controller/OptionMenuController.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/controller/OptionsMenuList.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/controller/SoundsController.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/controller/game/BombController.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/controller/game/BombControllerImpl.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/controller/game/EntityController.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/controller/game/EntityControllerImpl.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/controller/game/GameController.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/controller/game/GameControllerImpl.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/controller/game/KeyInput.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/controller/game/LoadWorld.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/Level.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/LevelImpl.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/Terrain.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/TerrainFactory.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/TerrainFactoryImpl.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/collision/Collision.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/collision/CollisionComponent.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/collision/CollisionComponentImpl.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/collision/CollisionImpl.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/collision/EntityCollisionManager.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/collision/EntityCollisionManagerImpl.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/engine/GameEngine.java">
+<error line="1" severity="error" message="CRLF and CR line endings are prohibited, but this file uses them." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/engine/GameEngineImp.java">
+<error line="1" severity="error" message="CRLF and CR line endings are prohibited, but this file uses them." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/entities/AbstractEntity.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/entities/AbstractLivingEntity.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/entities/Block.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/entities/Bomb.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/entities/BombImpl.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/entities/Entity.java">
+<error line="1" severity="error" message="CRLF and CR line endings are prohibited, but this file uses them." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/entities/Explosion.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/entities/Hero.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/entities/HeroImpl.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/entities/LivingEntity.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/entities/Monster.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/entities/Tile.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/entities/Wall.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/entities/powerups/AbstractPowerupEntity.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/entities/powerups/BonusBombNum.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/entities/powerups/BonusBombRange.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/entities/powerups/BonusLife.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/entities/powerups/BonusVelocity.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/entities/powerups/Door.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/entities/powerups/Key.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/entities/powerups/MalusFreeze.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/entities/powerups/MalusInvert.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/entities/powerups/MalusLife.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/entities/powerups/MalusSlow.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/leaderboard/PlayerScore.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/leaderboard/PlayerScoreImpl.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/leaderboard/ScoreHandler.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/leaderboard/ScoreTable.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/leaderboard/Scoring.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/utilities/BombState.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/utilities/Dimension.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/utilities/Direction.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/utilities/EntityFeature.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/utilities/EntityType.java">
+<error line="1" severity="error" message="CRLF and CR line endings are prohibited, but this file uses them." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/utilities/Pair.java">
+<error line="1" severity="error" message="CRLF and CR line endings are prohibited, but this file uses them." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/utilities/Position.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/utilities/PowerUpType.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/utilities/Sound.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/utilities/SoundImpl.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/utilities/Velocity.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/test/TestBomb.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/test/TestCollision.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/test/TestHero.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/test/TestMonster.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/test/TestPowerups.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/test/TestTerrain.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/EndView.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/GUIFactory.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/GUIFactoryImpl.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/GameView.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/HelpView.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/LeaderboardView.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/MainMenuView.java">
+<error line="1" severity="error" message="CRLF and CR line endings are prohibited, but this file uses them." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/OptionsView.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/SinglePlayerView.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/TopBar.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/entities/AbstractEntityView.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/entities/BlockView.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/entities/BombView.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/entities/EntityView.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/entities/HeroView.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/entities/MonsterView.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/entities/PowerUpView.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/entities/TileView.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/entities/WallView.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/utilities/Animation.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/utilities/AnimationImpl.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/utilities/AnimationIterator.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/utilities/BackgroundPanel.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/utilities/GameFont.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/utilities/ImageLoaderUtils.java">
+<error line="22" severity="error" message="Use the library to load classes and resources. Breaks grid otherwise." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/utilities/InfiniteAnimationIterator.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/utilities/ScreenToolUtils.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/utilities/Sprite.java">
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/utilities/SpriteSheet.java">
+</file>
+</checkstyle>

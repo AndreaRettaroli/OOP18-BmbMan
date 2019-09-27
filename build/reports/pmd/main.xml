@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.8.0" timestamp="2019-09-27T16:10:48.242">
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/controller/MainMenuList.java">
+<violation beginline="33" endline="35" begincolumn="12" endcolumn="5" rule="MissingOverride" ruleset="Best Practices" package="it.unibo.bmbman.controller" class="MainMenuList" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'toString()' is missing an @Override annotation.
+</violation>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/controller/OptionsMenuList.java">
+<violation beginline="33" endline="35" begincolumn="12" endcolumn="5" rule="MissingOverride" ruleset="Best Practices" package="it.unibo.bmbman.controller" class="OptionsMenuList" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'toString()' is missing an @Override annotation.
+</violation>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/controller/SoundsController.java">
+<violation beginline="112" endline="112" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="it.unibo.bmbman.controller" class="SoundsController" method="loadMusic" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="127" endline="127" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="it.unibo.bmbman.controller" class="SoundsController" method="loadEffects" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/controller/game/GameControllerImpl.java">
+<violation beginline="88" endline="90" begincolumn="12" endcolumn="5" rule="MissingOverride" ruleset="Best Practices" package="it.unibo.bmbman.controller.game" class="GameControllerImpl" method="isGameOver" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'isGameOver()' is missing an @Override annotation.
+</violation>
+<violation beginline="116" endline="122" begincolumn="12" endcolumn="5" rule="MissingOverride" ruleset="Best Practices" package="it.unibo.bmbman.controller.game" class="GameControllerImpl" method="addBomb" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'addBomb()' is missing an @Override annotation.
+</violation>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/collision/EntityCollisionManagerImpl.java">
+<violation beginline="41" endline="43" begincolumn="12" endcolumn="5" rule="MissingOverride" ruleset="Best Practices" package="it.unibo.bmbman.model.collision" class="EntityCollisionManagerImpl" method="checkCollision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'checkCollision(Entity, Rectangle)' is missing an @Override annotation.
+</violation>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/engine/GameEngineImp.java">
+<violation beginline="53" endline="53" begincolumn="17" endcolumn="35" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="it.unibo.bmbman.model.engine" class="GameEngineImp" method="stopEngine" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="61" endline="68" begincolumn="12" endcolumn="5" rule="MissingOverride" ruleset="Best Practices" package="it.unibo.bmbman.model.engine" class="GameEngineImp" method="setPause" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'setPause(boolean)' is missing an @Override annotation.
+</violation>
+<violation beginline="100" endline="100" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="it.unibo.bmbman.model.engine" class="GameEngineImp" method="sleepToNextFrame" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/entities/AbstractLivingEntity.java">
+<violation beginline="87" endline="89" begincolumn="12" endcolumn="5" rule="MissingOverride" ruleset="Best Practices" package="it.unibo.bmbman.model.entities" class="AbstractLivingEntity" method="getVelocity" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'getVelocity()' is missing an @Override annotation.
+</violation>
+<violation beginline="93" endline="95" begincolumn="12" endcolumn="5" rule="MissingOverride" ruleset="Best Practices" package="it.unibo.bmbman.model.entities" class="AbstractLivingEntity" method="setVelocity" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'setVelocity(Velocity)' is missing an @Override annotation.
+</violation>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/entities/HeroImpl.java">
+<violation beginline="94" endline="96" begincolumn="12" endcolumn="5" rule="MissingOverride" ruleset="Best Practices" package="it.unibo.bmbman.model.entities" class="HeroImpl" method="setKey" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'setKey()' is missing an @Override annotation.
+</violation>
+<violation beginline="101" endline="103" begincolumn="12" endcolumn="5" rule="MissingOverride" ruleset="Best Practices" package="it.unibo.bmbman.model.entities" class="HeroImpl" method="hasKey" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'hasKey()' is missing an @Override annotation.
+</violation>
+<violation beginline="107" endline="109" begincolumn="12" endcolumn="5" rule="MissingOverride" ruleset="Best Practices" package="it.unibo.bmbman.model.entities" class="HeroImpl" method="checkWin" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'checkWin()' is missing an @Override annotation.
+</violation>
+<violation beginline="113" endline="115" begincolumn="12" endcolumn="5" rule="MissingOverride" ruleset="Best Practices" package="it.unibo.bmbman.model.entities" class="HeroImpl" method="hasWon" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'hasWon()' is missing an @Override annotation.
+</violation>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/leaderboard/PlayerScoreImpl.java">
+<violation beginline="142" endline="144" begincolumn="9" endcolumn="9" rule="SimplifyBooleanReturns" ruleset="Design" package="it.unibo.bmbman.model.leaderboard" class="PlayerScoreImpl" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_design.html#simplifybooleanreturns" priority="3">
+Avoid unnecessary if..then..else statements when returning booleans
+</violation>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/leaderboard/ScoreHandler.java">
+<violation beginline="32" endline="32" begincolumn="13" endcolumn="79" rule="PreserveStackTrace" ruleset="Best Practices" package="it.unibo.bmbman.model.leaderboard" class="ScoreHandler" method="save" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#preservestacktrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="40" endline="40" begincolumn="60" endcolumn="89" rule="UselessParentheses" ruleset="Code Style" package="it.unibo.bmbman.model.leaderboard" class="ScoreHandler" method="read" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="50" endline="50" begincolumn="13" endcolumn="69" rule="PreserveStackTrace" ruleset="Best Practices" package="it.unibo.bmbman.model.leaderboard" class="ScoreHandler" method="read" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#preservestacktrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/utilities/Dimension.java">
+<violation beginline="83" endline="85" begincolumn="9" endcolumn="9" rule="SimplifyBooleanReturns" ruleset="Design" package="it.unibo.bmbman.model.utilities" class="Dimension" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_design.html#simplifybooleanreturns" priority="3">
+Avoid unnecessary if..then..else statements when returning booleans
+</violation>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/utilities/EntityType.java">
+<violation beginline="34" endline="34" begincolumn="27" endcolumn="36" rule="LinguisticNaming" ruleset="Code Style" package="it.unibo.bmbman.model.utilities" class="EntityType" variable="isWalkable" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#linguisticnaming" priority="3">
+Linguistics Antipattern - The field 'isWalkable' indicates linguistically it is a boolean, but it is 'EntityFeature'
+</violation>
+<violation beginline="35" endline="35" begincolumn="27" endcolumn="37" rule="LinguisticNaming" ruleset="Code Style" package="it.unibo.bmbman.model.utilities" class="EntityType" variable="isBreakable" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#linguisticnaming" priority="3">
+Linguistics Antipattern - The field 'isBreakable' indicates linguistically it is a boolean, but it is 'EntityFeature'
+</violation>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/utilities/Position.java">
+<violation beginline="96" endline="98" begincolumn="9" endcolumn="9" rule="SimplifyBooleanReturns" ruleset="Design" package="it.unibo.bmbman.model.utilities" class="Position" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_design.html#simplifybooleanreturns" priority="3">
+Avoid unnecessary if..then..else statements when returning booleans
+</violation>
+<violation beginline="107" endline="108" begincolumn="9" endcolumn="70" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="it.unibo.bmbman.model.utilities" class="Position" method="getCenteredPosition" variable="newPosition" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'newPosition' could be declared final
+</violation>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/model/utilities/PowerUpType.java">
+<violation beginline="59" endline="61" begincolumn="12" endcolumn="5" rule="MissingOverride" ruleset="Best Practices" package="it.unibo.bmbman.model.utilities" class="PowerUpType" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'toString()' is missing an @Override annotation.
+</violation>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/test/TestBomb.java">
+<violation beginline="40" endline="40" begincolumn="13" endcolumn="24" rule="SingularField" ruleset="Design" package="it.unibo.bmbman.test" class="TestBomb" variable="block" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_design.html#singularfield" priority="3">
+Perhaps 'block' could be replaced by a local variable.
+</violation>
+<violation beginline="41" endline="41" begincolumn="13" endcolumn="29" rule="SingularField" ruleset="Design" package="it.unibo.bmbman.test" class="TestBomb" variable="monster1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_design.html#singularfield" priority="3">
+Perhaps 'monster1' could be replaced by a local variable.
+</violation>
+<violation beginline="42" endline="42" begincolumn="13" endcolumn="29" rule="SingularField" ruleset="Design" package="it.unibo.bmbman.test" class="TestBomb" variable="monster2" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_design.html#singularfield" priority="3">
+Perhaps 'monster2' could be replaced by a local variable.
+</violation>
+<violation beginline="87" endline="87" begincolumn="9" endcolumn="41" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="it.unibo.bmbman.test" class="TestBomb" method="testExplosion" variable="set" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'set' could be declared final
+</violation>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/test/TestPowerups.java">
+<violation beginline="91" endline="91" begincolumn="9" endcolumn="83" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="it.unibo.bmbman.test" class="TestPowerups" method="testMalusSlowEffect" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/test/TestTerrain.java">
+<violation beginline="24" endline="24" begincolumn="23" endcolumn="27" rule="ImmutableField" ruleset="Design" package="it.unibo.bmbman.test" class="TestTerrain" variable="level" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'level' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/EndView.java">
+<violation beginline="207" endline="207" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="it.unibo.bmbman.view" class="EndView" method="loadImage" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/OptionsView.java">
+<violation beginline="120" endline="120" begincolumn="24" endcolumn="28" rule="UselessParentheses" ruleset="Code Style" package="it.unibo.bmbman.view" class="OptionsView" method="loadButtons" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="148" endline="148" begincolumn="48" endcolumn="60" rule="UselessParentheses" ruleset="Code Style" package="it.unibo.bmbman.view" class="OptionsView$HandlerAdapter" method="actionPerformed" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/TopBar.java">
+<violation beginline="47" endline="47" begincolumn="29" endcolumn="92" rule="UselessParentheses" ruleset="Code Style" package="it.unibo.bmbman.view" class="TopBar" method="TopBar" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="67" endline="67" begincolumn="31" endcolumn="92" rule="UselessParentheses" ruleset="Code Style" package="it.unibo.bmbman.view" class="TopBar" method="render" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/utilities/AnimationImpl.java">
+<violation beginline="27" endline="27" begincolumn="17" endcolumn="43" rule="UnusedPrivateMethod" ruleset="Best Practices" package="it.unibo.bmbman.view.utilities" class="AnimationImpl" method="addFrame" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'addFrame(Image)'.
+</violation>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/utilities/GameFont.java">
+<violation beginline="27" endline="27" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="it.unibo.bmbman.view.utilities" class="GameFont" method="GameFont" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="28" endline="30" begincolumn="11" endcolumn="9" rule="IdenticalCatchBranches" ruleset="Code Style" package="it.unibo.bmbman.view.utilities" class="GameFont" method="GameFont" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#identicalcatchbranches" priority="3">
+'catch' branch identical to 'FontFormatException' branch
+</violation>
+<violation beginline="29" endline="29" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="it.unibo.bmbman.view.utilities" class="GameFont" method="GameFont" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/utilities/ImageLoaderUtils.java">
+<violation beginline="24" endline="24" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="it.unibo.bmbman.view.utilities" class="ImageLoaderUtils" method="loadImage" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="/datadisk/danysk/Downloads/progetti/oop18-penazzi-paolo-ragazzini-matteo-rettaroli-andrea-spadoni/src/it/unibo/bmbman/view/utilities/SpriteSheet.java">
+<violation beginline="21" endline="21" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="it.unibo.bmbman.view.utilities" class="SpriteSheet" method="SpriteSheet" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+</pmd>
